@@ -1,0 +1,21 @@
+/* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 62.5%; // 1 rem = 10px, 10px/16px = 62.5%
+}
+
+body {
+	font-family: var(--font-primary);
+	height: 100%;
+}
