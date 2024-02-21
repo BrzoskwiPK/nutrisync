@@ -23,6 +23,7 @@
 </header>
 
 <style lang="scss">
+	@import '../app';
 	.header {
 		@include box(100%, 7.2rem);
 
